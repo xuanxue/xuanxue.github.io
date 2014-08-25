@@ -2,7 +2,6 @@
 
 body {
 	font-family: 'PT Sans', 'Open Sans', 'Helvetica Neue', Helvetica, 'Gill Sans', Arial, 'Hiragino Sans GB', 'Heiti SC', 'Heiti TC', 'Hiragino Gothic Pro', 'STHeiti', 'STXiHei', 'Microsoft YaHei', sans-serif;
-	font-size: 16px;
 	color: #494949;
 	background: #F9F9F9;
 
@@ -18,7 +17,6 @@ body {
 }
 
 .header-in {
-	padding: 10px 0;
 	margin: 0 auto;
 }
 
@@ -138,8 +136,14 @@ body {
 }
 
 @media screen and (min-width: 860px) {
+	body {
+		font-size: 16px;
+	}
 	.header-in, .main, .footer-note {
 		width: 800px;
+	}
+	.header-in {
+		padding: 10px 0;
 	}
 	.header-social {
 		float: right;
@@ -150,8 +154,14 @@ body {
 }
 
 @media screen and (max-width: 860px) {
+	body {
+		font-size: 20px;
+	}
 	.header-in, .main, .footer-note {
 		width: 100%;
+	}
+	.header-in {
+		padding: 10px;
 	}
 	.header-social {
 		display: none;
