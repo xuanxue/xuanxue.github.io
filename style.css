@@ -53,7 +53,7 @@ body {
 	text-align: right;
 
 	float: right;
-	padding: 60px 0 0 0;
+	padding: 50px 0 0 0;
 }
 
 .header-social a {
@@ -92,8 +92,32 @@ body {
 
 	box-sizing: border-box;
 	width: 800px;
-	padding: 5px 50px;
+	padding: 25px 50px;
 	margin: 0 auto;
+}
+
+.main h1, .main h2, .main h3 {
+	font-weight: normal;
+}
+
+.main h1 {
+	font-size: 1.5em;
+	border-bottom: 1px solid #CCC;
+
+	margin-top: 2em;
+}
+
+.main h2 {
+	font-size: 1.375em;
+}
+
+.main h3 {
+	font-size: 1.25em;
+}
+
+.main h4, .main h5, .main h6 {
+	font-size: 1em;
+	font-weight: bold;
 }
 
 .footer {
