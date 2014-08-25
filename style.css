@@ -133,3 +133,11 @@ body {
 	width: 800px;
 	margin: 0 auto;
 }
+
+.footer-note a {
+	color: inherit;
+}
+
+.footer-note a:hover {
+	color: #4763E0;
+}
