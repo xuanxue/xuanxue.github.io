@@ -89,7 +89,6 @@ body {
 	border-right: 1px solid #EEE;
 
 	box-sizing: border-box;
-	padding: 25px 50px;
 	margin: 0 auto;
 }
 
@@ -145,6 +144,9 @@ body {
 	.header-social {
 		float: right;
 	}
+	.main {
+		padding: 25px 50px;
+	}
 }
 
 @media screen and (max-width: 860px) {
@@ -153,5 +155,8 @@ body {
 	}
 	.header-social {
 		display: none;
+	}
+	.main {
+		padding: 25px 10px;
 	}
 }
