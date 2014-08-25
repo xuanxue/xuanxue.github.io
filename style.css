@@ -76,10 +76,6 @@ body {
 .cont {
 	background: #FFF;
 	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
-
-	width: 100%;
-	padding: 0;
-	margin: 0;
 }
 
 .main {
@@ -158,14 +154,13 @@ body {
 		font-size: 20px;
 	}
 	.header-in, .main, .footer-note {
-	}
-	.header-in {
 		padding: 10px;
 	}
 	.header-social {
 		display: none;
 	}
 	.main {
-		padding: 25px 10px;
+		padding-top: 25px;
+		padding-bottom: 25px;
 	}
 }
