@@ -18,7 +18,6 @@ body {
 }
 
 .header-in {
-	width: 800px;
 	padding: 10px 0;
 	margin: 0 auto;
 }
@@ -91,7 +90,6 @@ body {
 	border-right: 1px solid #EEE;
 
 	box-sizing: border-box;
-	width: 800px;
 	padding: 25px 50px;
 	margin: 0 auto;
 }
@@ -130,7 +128,6 @@ body {
 .footer-note {
 	text-align: right;
 
-	width: 800px;
 	margin: 0 auto;
 }
 
@@ -140,4 +137,16 @@ body {
 
 .footer-note a:hover {
 	color: #4763E0;
+}
+
+@media screen and (min-width: 860px) {
+	.header-in, .main, .footer-note {
+		width: 800px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	.header-in, .main, .footer-note {
+		width: 100%;
+	}
 }
