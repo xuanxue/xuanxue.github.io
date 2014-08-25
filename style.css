@@ -9,6 +9,11 @@ body {
 	height: 260px;
 }
 
+.header-in {
+	width: 800px;
+	margin: 0 auto;
+}
+
 .header h1, .header h2 {
 	font-weight: normal;
 }
@@ -26,10 +31,25 @@ body {
 	font-size: 1em;
 }
 
+.header-text {
+
+}
+
 .header-social {
 	float: right;
 }
 
+.header-social a {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
 .main {
 	width: 700px;
+	margin: 0 auto;
+}
+
+.footer {
+	font-size: 14px;
 }
