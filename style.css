@@ -52,7 +52,6 @@ body {
 	text-align: right;
 	color: #999;
 
-	float: right;
 	padding: 50px 0 0 0;
 }
 
@@ -143,10 +142,16 @@ body {
 	.header-in, .main, .footer-note {
 		width: 800px;
 	}
+	.header-social {
+		float: right;
+	}
 }
 
 @media screen and (max-width: 860px) {
 	.header-in, .main, .footer-note {
 		width: 100%;
+	}
+	.header-social {
+		display: none;
 	}
 }
