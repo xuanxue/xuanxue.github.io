@@ -48,7 +48,10 @@ body {
 }
 
 .header-social {
+	text-align: right;
+
 	float: right;
+	padding: 60px 0 0 0;
 }
 
 .header-social a {
