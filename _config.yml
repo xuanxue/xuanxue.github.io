@@ -1,4 +1,4 @@
 name: 玄学百科，万物皆可玄
 pygments: true
 markdown: rdiscount
-permalink: /:title/
+permalink: /wiki:title
