@@ -3,7 +3,8 @@
 body {
 	font-family: 'PT Sans', 'Open Sans', 'Helvetica Neue', Helvetica, 'Gill Sans', Arial, 'Hiragino Sans GB', 'Heiti SC', 'Heiti TC', 'Hiragino Gothic Pro', 'STHeiti', 'STXiHei', 'Microsoft YaHei', sans-serif;
 	font-size: 16px;
-	background: #F0F0F0;
+	color: #494949;
+	background: #F9F9F9;
 
 	padding: 0;
 	margin: 0;
@@ -30,6 +31,7 @@ body {
 
 .header h1 {
 	font-size: 2.25em;
+	color: #FF784B;
 }
 
 .header h1 a {
@@ -56,9 +58,19 @@ body {
 
 .header-social a {
 	color: #999;
+	text-decoration: none;
+
 	display: block;
 	padding: 0;
 	margin: 0;
+}
+
+.link-to-github {
+	font-size: 16px;
+}
+
+.view-edit-history {
+	font-size: 12px;
 }
 
 .header-social a:hover {
@@ -75,8 +87,8 @@ body {
 }
 
 .main {
-	border-left: 1px solid #F0F0F0;
-	border-right: 1px solid #F0F0F0;
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #EEE;
 
 	box-sizing: border-box;
 	width: 800px;
@@ -86,6 +98,7 @@ body {
 
 .footer {
 	font-size: 14px;
+	color: #888;
 
 	padding: 12px 0;
 }
