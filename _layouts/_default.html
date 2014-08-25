@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>{{ page.title }}{% if page.path != "index.html" %} — 玄学百科，万物皆可玄{% endif %}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/css/style.css">
+		<!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" /> -->
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-in">
+				<hgroup class="header-text">
+					<h2 class="header-name"><a href="/">玄学百科</a></h2>
+					<h3 class="header-about">万物皆可玄</h3>
+				</hgroup>
+
+				<section class="header-social">
+					<ul class="header-social-links">
+						<li><a href="https://github.com/shunfan">Github</a></li>
+					</ul>
+				</section>
+			</div>
+		</header>
+
+		<div class="main">
+{{ content }}
+		</div>
+
+		<footer class="footer">
+			<div class="footer-note">
+				本站内容以<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0 国际版</a>许可证释出。<br />
+				<strong>玄学百科</strong>托管于 <a href="https://guthub.com/">GitHub</a>。
+			</div>
+		</footer>
+	</body>
+</html>

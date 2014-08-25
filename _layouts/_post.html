@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article class="article">
+	<header class="article-header">
+		<h1 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+		<h2 class="article-byline">By Perry</h2>
+		<time class="article-date">最后编辑 {{ page.date | date_to_string }}</time>
+	</header>
+	<div class="article-body">
+{{ content }}
+	</div>
+</article>
