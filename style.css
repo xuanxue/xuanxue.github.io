@@ -11,7 +11,7 @@ body {
 
 .header {
 	background: #FFF;
-	box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
 
 	/*height: 200px;*/
 }
@@ -59,15 +59,20 @@ body {
 
 .cont {
 	background: #FFF;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
+
 	width: 100%;
+	padding: 5px 0;
+	margin: 0;
 }
 
 .main {
-	border-left: 1px solid #AAA;
-	border-right: 1px solid #AAA;
+	border-left: 1px solid #F0F0F0;
+	border-right: 1px solid #F0F0F0;
+
 	box-sizing: border-box;
 	width: 800px;
-	padding: 0 50px;
+	padding: 5px 50px;
 	margin: 0 auto;
 }
 
