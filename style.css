@@ -100,7 +100,6 @@ body {
 	font-size: 1.5em;
 	border-bottom: 1px solid #CCC;
 
-	padding-top: 0.25em;
 	margin-bottom: 0.875em;
 }
 
@@ -159,7 +158,7 @@ body {
 		float: right;
 	}
 	.main {
-		padding: 25px 50px;
+		padding: 15px 50px;
 	}
 }
 
@@ -174,7 +173,7 @@ body {
 		display: none;
 	}
 	.main {
-		padding-top: 25px;
-		padding-bottom: 25px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 }
