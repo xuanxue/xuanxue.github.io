@@ -128,14 +128,6 @@ body {
 	margin: 0 auto;
 }
 
-.footer-inside-left {
-	float: left;
-}
-
-.footer-inside-right {
-	text-align: right;
-}
-
 .footer-note a {
 	color: inherit;
 }
@@ -159,6 +151,12 @@ body {
 	}
 	.main {
 		padding: 15px 50px;
+	}
+	.footer-inside-left {
+		float: left;
+	}
+	.footer-inside-right {
+		text-align: right;
 	}
 }
 
