@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>{{ page.title }}{% if page.path != "index.html" %} — 玄学百科，万物皆可玄{% endif %}</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="/style.css">
-		<!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" /> -->
-	</head>
-	<body>
-		<header class="header">
-			<div class="header-in">
-				<div class="header-social">
-					<div><a class="link-to-github" href="https://github.com/xuanxuebaike/xuanxuebaike.github.io"><i class="fa fa-github"></i> Github</a></div>
-					<div>
-						<a rel="nofollow" class="view-edit-history" href="https://github.com/xuanxuebaike/xuanxuebaike.github.io/edit/master/_posts/2014-08-25-{{ page.title }}.md">编辑条目</a> • <a class="view-edit-history" href="https://github.com/xuanxuebaike/xuanxuebaike.github.io/commits/master/_posts/2014-08-25-{{ page.title }}.md">查看编辑历史</a>
-					</div>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ page.title }} — 玄学百科，万物皆可玄</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/style.css">
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" /> -->
+</head>
+<body>
+	<header class="header">
+		<div class="header-in">
+			<div class="header-social">
+				<div><a class="link-to-github" href="https://github.com/xuanxuebaike/xuanxuebaike.github.io"><i class="fa fa-github"></i> Github</a></div>
+				<div>
+					<a rel="nofollow" class="view-edit-history" href="https://github.com/xuanxuebaike/xuanxuebaike.github.io/edit/master/_posts/2014-08-25-{{ page.title }}.md">编辑条目</a> • <a class="view-edit-history" href="https://github.com/xuanxuebaike/xuanxuebaike.github.io/commits/master/_posts/2014-08-25-{{ page.title }}.md">查看编辑历史</a>
 				</div>
-				<hgroup class="header-text">
-					<h1><a href="/wiki/首页">玄学百科</a></h1>
-					<h2>万物皆可玄</h2>
-				</hgroup>
 			</div>
-		</header>
-
-		<div class="cont">
-			<div class="main">
-{{ content }}
-			</div>
+			<hgroup class="header-text">
+				<h1><a href="/wiki/首页">玄学百科</a></h1>
+				<h2>万物皆可玄</h2>
+			</hgroup>
 		</div>
-
-		<footer class="footer">
-			<div class="footer-note">
-				<div></div>
-				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本站内容以 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可证释出<br />
+	</header>
+	<div class="cont">
+		<div class="main">
+			<h1>{{ page.title }}</h1>
+{{ content }}
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer-note">
+			<div class="footer-inside-left">
+			</div>
+			<div class="footer-inside-right">
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本站文章以 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可证释出<br />
 				<strong>玄学百科</strong>托管于 <a href="https://github.com/">GitHub</a>
 			</div>
-		</footer>
-	</body>
+		</div>
+	</footer>
+</body>
 </html>

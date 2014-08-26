@@ -100,11 +100,12 @@ body {
 	font-size: 1.5em;
 	border-bottom: 1px solid #CCC;
 
-	margin-top: 1.125em;
+	padding-top: 1.125em;
 }
 
 .main h2 {
 	font-size: 1.25em;
+	border-bottom: 1px solid #EEE;
 }
 
 .main h3 {
