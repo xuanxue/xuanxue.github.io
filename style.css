@@ -100,8 +100,8 @@ body {
 	font-size: 1.5em;
 	border-bottom: 1px solid #CCC;
 
-	padding-top: 0.75em;
-	margin-bottom: 0.75em;
+	padding-top: 0.25em;
+	margin-bottom: 0.875em;
 }
 
 .main h2 {
@@ -126,9 +126,15 @@ body {
 }
 
 .footer-note {
-	text-align: right;
-
 	margin: 0 auto;
+}
+
+.footer-inside-left {
+	float: left;
+}
+
+.footer-inside-right {
+	text-align: right;
 }
 
 .footer-note a {

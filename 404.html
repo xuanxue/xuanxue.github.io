@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>404 Not Found — 玄学百科，万物皆可玄</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/style.css">
+	<style type="text/css">
+	</style>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" /> -->
+</head>
+<body>
+	<header class="header">
+		<div class="header-in">
+			<div class="header-social">
+			</div>
+			<hgroup class="header-text">
+				<h1><a href="/wiki/首页">玄学百科</a></h1>
+				<h2>万物皆可玄</h2>
+			</hgroup>
+		</div>
+	</header>
+	<div class="cont">
+		<div class="main">
+			<h1>404 Not Found &gt;_</h1>
+			<p id="create">目前玄学百科没有名为<a id="whats-the-title" href=""></a>的条目，你可以创建一个。</p>
+			<p id="error">这个链接坏掉了哦，检查一下来自哪里吧！</p>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer-note">
+			<div class="footer-inside-left">
+				© 2014 Multiple copyright holders.<br />
+				玄学百科托管于 <a href="https://github.com/">GitHub</a>
+			</div>
+			<div class="footer-inside-right">
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本站文章以 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可证释出
+				
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+	if (/\/wiki\/[a-zA-Z0-9%]/.test(window.location.pathname)) {
+		document.getElementById("error").remove();
+		var title = window.location.pathname.replace("/wiki/", "").replace("/", "");
+		document.getElementById("whats-the-title").href = "/wiki/" + title;
+		document.getElementById("whats-the-title").innerHTML = title;
+	} else {
+		document.getElementById("create").remove();
+	};
+	</script>
+</body>
+</html>
