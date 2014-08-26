@@ -43,7 +43,7 @@
 		document.getElementById("error").remove();
 		var title = window.location.pathname.replace("/wiki/", "").replace("/", "");
 		document.getElementById("whats-the-title").href = "/wiki/" + title;
-		document.getElementById("whats-the-title").innerHTML = title;
+		document.getElementById("whats-the-title").innerHTML = decodeURI(title);
 	} else {
 		document.getElementById("create").remove();
 	};
