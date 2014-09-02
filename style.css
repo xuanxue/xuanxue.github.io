@@ -3,17 +3,20 @@
 body {
 	font-family: 'PT Sans', 'Open Sans', 'Helvetica Neue', Helvetica, 'Gill Sans', Arial, 'Hiragino Sans GB', 'Heiti SC', 'Heiti TC', 'Hiragino Gothic Pro', 'STHeiti', 'STXiHei', 'Microsoft YaHei', sans-serif;
 	color: #494949;
-	background: #F9F9F9;
+	background: #F0F0F0;
 
 	padding: 0;
 	margin: 0;
 }
 
 .header {
-	background: #FFF;
+	color: #FFF;
+	text-shadow: rgba(0, 0, 0, 0.1846) 0 1px 1px;
+	background: #000 url(title-tile.jpg) repeat-x top scroll;
+	background-size: contain;
 	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
 
-	position: relative;
+	max-height: 68px;
 }
 
 .header-in {
@@ -29,7 +32,7 @@ body {
 
 .header h1 {
 	font-size: 2em;
-	color: #FF784B;
+	color: #FFF;
 }
 
 .header h1 a {
@@ -39,7 +42,6 @@ body {
 
 .header h2 {
 	font-size: 1em;
-	color: #666;
 
 	padding: 12px 0 0 0;
 }
@@ -54,7 +56,6 @@ body {
 
 .header-social {
 	text-align: right;
-	color: #999;
 
 	padding: 8px 0 0 0;
 }
@@ -76,17 +77,17 @@ body {
 }
 
 .header-social a:hover {
-	color: #4763E0;
+	/*color: #4763E0;*/
 }
 
 .cont {
 	background: #FFF;
-	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
+	box-shadow: rgba(0, 0, 0, 0.12265333) 0 -1px 5px 1px;
 }
 
 .main {
-	border-left: 1px solid #EEE;
-	border-right: 1px solid #EEE;
+	/*border-left: 1px solid #EEE;*/
+	/*border-right: 1px solid #EEE;*/
 
 	box-sizing: border-box;
 	margin: 0 auto;
@@ -141,7 +142,7 @@ body {
 		font-size: 16px;
 	}
 	.header-in, .main, .footer-note {
-		width: 800px;
+		width: 700px;
 	}
 	.header-in {
 		padding: 10px 0;
@@ -150,7 +151,7 @@ body {
 		float: right;
 	}
 	.main {
-		padding: 15px 50px;
+		padding: 15px 0;
 	}
 	.footer-inside-left {
 		float: left;
