@@ -13,7 +13,7 @@ body {
 	color: #FFF;
 	text-shadow: rgba(0, 0, 0, 0.1846) 0 1px 1px;
 	background: #000 url(title-tile.jpg) repeat-x top scroll;
-	background-size: contain;
+	background-size: 1000px 68px;
 	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
 
 	max-height: 68px;
