@@ -2,7 +2,7 @@
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 
 body {
-	font-family: 'PT Sans', 'Open Sans', 'Helvetica Neue', Helvetica, 'Gill Sans', Arial, 'Hiragino Sans GB', 'Heiti SC', 'Heiti TC', 'Hiragino Gothic Pro', 'STHeiti', 'STXiHei', 'Microsoft YaHei', sans-serif;
+	font-family: 'PT Sans', Tahoma, 'Open Sans', 'Helvetica Neue', Helvetica, 'Gill Sans', Arial, 'Hiragino Sans GB', 'Heiti SC', 'Heiti TC', 'Hiragino Gothic Pro', 'STHeiti', 'STXiHei', 'Microsoft YaHei', sans-serif;
 	color: #494949;
 	background: #F0F0F0;
 
@@ -13,7 +13,7 @@ body {
 .header {
 	color: #FFF;
 	text-shadow: rgba(0, 0, 0, 0.1846) 0 1px 1px;
-	background: #000 url(title-tile.jpg) repeat-x top scroll;
+	background: #000 url(http://xuanxuebaike.github.io/title-tile.jpg) repeat-x top scroll;
 	background-size: 1000px 68px;
 	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
 
@@ -78,7 +78,6 @@ body {
 }
 
 .header-social a:hover {
-	/*color: #4763E0;*/
 }
 
 .cont {
@@ -87,9 +86,6 @@ body {
 }
 
 .main {
-	/*border-left: 1px solid #EEE;*/
-	/*border-right: 1px solid #EEE;*/
-
 	box-sizing: border-box;
 	margin: 0 auto;
 }
