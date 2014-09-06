@@ -134,6 +134,15 @@ body {
 	color: #4763E0;
 }
 
+.invisible-img {
+	position: fixed;
+	top: 0;
+	left: 110%;
+	width: 1px;
+	height: 1px;
+	opacity: 0.001;
+}
+
 @media screen and (min-width: 860px) {
 	body {
 		font-size: 16px;
