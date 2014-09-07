@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
-	<title>{{ page.title }} — 玄学百科，万物皆可玄</title>
+	<title>404 Not Found — 玄学百科，万物皆可玄</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/style.css">
@@ -40,7 +40,7 @@
 	if (/\/wiki\/[a-zA-Z0-9%_]/.test(window.location.pathname)) {
 		document.getElementById("error").remove();
 		var title = window.location.pathname.replace("/wiki/", "").replace("/", "");
-		document.getElementById("whats-the-title").href = "/wiki/" + title;
+		document.getElementById("whats-the-title").href = "https://github.com/xuanxuebaike/xuanxuebaike.github.io/edit/master/_posts/2014-08-25-" + title + ".md";
 		document.getElementById("whats-the-title").innerHTML = decodeURI(title);
 	} else {
 		document.getElementById("create").remove();
