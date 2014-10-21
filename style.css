@@ -86,6 +86,8 @@ body {
 }
 
 .main {
+	line-height: 1.85em;
+
 	box-sizing: border-box;
 	margin: 0 auto;
 }
