@@ -86,6 +86,8 @@ body {
 }
 
 .main {
+	background: #FFF;
+
 	box-sizing: border-box;
 	padding: 10px 25px;
 	margin: 0 auto;
