@@ -1,4 +1,4 @@
-# [xuanxuebaike.github.io](http://xuanxuebaike.github.io/)
+# [xuanxue.github.io](http://xuanxue.github.io/)
 
 玄学百科，万物皆可玄
 
