@@ -116,8 +116,10 @@ body {
 }
 
 .main code {
-	background: #FAFAFA;
+	background: #F0F0EE;
 	border-radius: 3px;
+
+	padding: 0 3px;
 }
 
 .footer {
