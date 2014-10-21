@@ -26,6 +26,11 @@ body {
 	margin: 0 auto;
 }
 
+.xuan-kanji {
+	display: block;
+	margin: 20px auto;
+}
+
 .header h1, .header h2 {
 	font-weight: normal;
 
