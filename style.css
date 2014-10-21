@@ -17,7 +17,7 @@ body {
 	/*background-size: 1000px 68px;*/
 	/*box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;*/
 
-	max-height: 130px;
+	/*max-height: 130px;*/
 }
 
 .header-in {
@@ -27,6 +27,8 @@ body {
 
 .xuan-kanji {
 	display: block;
+	height: 340px;
+	width: 340px;
 	margin: 20px auto;
 }
 
