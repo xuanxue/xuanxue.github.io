@@ -3,9 +3,9 @@
 
 body {
 	font-family: 'PT Sans', Tahoma, 'Open Sans', 'Helvetica Neue', Helvetica, 'Gill Sans', Arial, 'Hiragino Sans GB', 'Heiti SC', 'Heiti TC', 'Hiragino Gothic Pro', 'STHeiti', 'STXiHei', 'Microsoft YaHei', sans-serif;
-	color: #494949;
+	color: #444;
 	/*background: #ECB88A;*/
-	background: #FCC89A;
+	background: #FCE4BA;
 
 	padding: 0;
 	margin: 0;
@@ -87,6 +87,8 @@ body {
 
 .main {
 	background: #FFF;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.233333) 0 1px 3px 0;
 
 	box-sizing: border-box;
 	padding: 10px 25px;
