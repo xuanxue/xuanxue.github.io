@@ -42,6 +42,7 @@
 		var title = window.location.pathname.replace("/wiki/", "").replace("/", "");
 		document.getElementById("whats-the-title").href = "/wiki/" + title;
 		document.getElementById("whats-the-title").innerHTML = decodeURI(title);
+		document.title = decodeURI(title) + " — 玄学百科，万物皆可玄";
 	} else {
 		document.getElementById("create").remove();
 	};
