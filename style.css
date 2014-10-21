@@ -118,8 +118,9 @@ body {
 .main code {
 	background: #F0F0EE;
 	border-radius: 3px;
+	box-shadow: #F0F0EE 0 0 0 2px;
 
-	padding: 0 3px;
+	padding: 0 2px;
 }
 
 .footer {
