@@ -25,11 +25,15 @@ body {
 	margin: 0 auto;
 }
 
+.header-in hgroup {
+
+}
+
 .xuan-kanji {
 	display: block;
-	height: 340px;
-	width: 340px;
-	margin: 20px auto;
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
 }
 
 .header h1, .header h2 {
