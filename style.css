@@ -86,8 +86,6 @@ body {
 }
 
 .main {
-	line-height: 1.85em;
-
 	box-sizing: border-box;
 	margin: 0 auto;
 }
@@ -115,6 +113,14 @@ body {
 .main h4, .main h5, .main h6 {
 	font-size: 1em;
 	font-weight: bold;
+}
+
+.main p {
+	line-height: 1.85em;
+}
+
+.main ul li, .main ol li {
+	line-height: 1.25em;
 }
 
 .main code {
