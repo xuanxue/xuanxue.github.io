@@ -21,6 +21,7 @@ body {
 
 a.to-mainpage-link, a.to-mainpage-link:hover, a.to-mainpage-link:visited, a.to-mainpage-link:active {
 	color: inherit;
+	text-decoration: none;
 
 	display: block;
 }
