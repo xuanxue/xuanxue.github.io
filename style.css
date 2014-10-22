@@ -19,6 +19,10 @@ body {
 	margin: 0 auto;
 }
 
+a.to-mainpage-link {
+	display: block;
+}
+
 .xuan-kanji {
 	display: block;
 	width: 260px;
