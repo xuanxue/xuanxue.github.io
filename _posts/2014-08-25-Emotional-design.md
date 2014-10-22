@@ -3,7 +3,7 @@ layout: default
 title: Emotional design
 ---
 
-**Emotional Design** 中文通常称为**情感化设计**，是一组设计方法论，来自同名书籍。
+**Emotional design** 中文通常称为**情感化设计**，是一组设计方法论，来自同名书籍。
 
 ## 相关条目
 
