@@ -133,6 +133,22 @@ a.to-mainpage-link, a.to-mainpage-link:hover, a.to-mainpage-link:visited, a.to-m
 	line-height: 1.25em;
 }
 
+.main a {
+	text-decoration: none;
+}
+
+.main a:link {
+	color: #4259B2;
+}
+
+.main a:visited {
+	color: #874BA3;
+}
+
+.main a:hover, .main a:active {
+	text-decoration: underline;
+}
+
 .main code {
 	background: #F0F0EE;
 	border-radius: 3px;
