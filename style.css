@@ -66,7 +66,7 @@ a.to-mainpage-link, a.to-mainpage-link:hover, a.to-mainpage-link:visited, a.to-m
 .header-social {
 	text-align: right;
 
-	padding: 0;
+	padding: 0 0 0 40px;
 }
 
 .header-social a {
