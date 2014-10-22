@@ -19,8 +19,8 @@ body {
 	margin: 0 auto;
 }
 
-a.to-mainpage-link {
-	color: #FFF;
+a.to-mainpage-link, a.to-mainpage-link:hover, a.to-mainpage-link:visited, a.to-mainpage-link:active {
+	color: inherit;
 
 	display: block;
 }
