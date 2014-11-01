@@ -4,7 +4,7 @@
 body {
 	font-family: 'PT Sans', Tahoma, 'Open Sans', 'Helvetica Neue', Helvetica, 'Gill Sans', Arial, 'Hiragino Sans GB', 'Heiti SC', 'Heiti TC', 'Hiragino Gothic Pro', 'STHeiti', 'STXiHei', 'Microsoft YaHei', sans-serif;
 	color: #444;
-	background: #FDF7EB;
+	background: #FEFEF5;
 
 	padding: 0;
 	margin: 0;
@@ -96,7 +96,7 @@ a.to-mainpage-link, a.to-mainpage-link:hover, a.to-mainpage-link:visited, a.to-m
 }
 
 .main {
-	background: #FEFEF5;
+	background: #FFF;
 	border-radius: 3px;
 	box-shadow: rgba(0, 0, 0, 0.233333) 0 1px 3px 0;
 
