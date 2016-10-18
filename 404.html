@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
-	<title>{{ page.title }} — 玄学百科，万物皆可玄</title>
+	<title>404 Not Found — 玄学百科，万物皆可玄</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/style.css">
@@ -27,7 +27,7 @@
 	</header>
 	<div class="cont">
 		<div class="main">
-			<h1>404 Not Found &gt;_</h1>
+			<h1>404 Not Found &gt;_&lt;</h1>
 			<p id="create">目前玄学百科没有名为<a id="whats-the-title" href=""></a>的条目，你可以创建一个。</p>
 			<p id="error">这个链接坏掉了哦，检查一下来自哪里吧！</p>
 		</div>
@@ -48,7 +48,7 @@
 	if (/\/wiki\/[a-zA-Z0-9%_]/.test(window.location.pathname)) {
 		document.getElementById("error").remove();
 		var title = window.location.pathname.replace("/wiki/", "").replace("/", "");
-		document.getElementById("whats-the-title").href = "/wiki/" + title;
+		document.getElementById("whats-the-title").href = "https://github.com/xuanxuebaike/xuanxuebaike.github.io/edit/master/_posts/2014-08-25-" + title + ".md";
 		document.getElementById("whats-the-title").innerHTML = decodeURI(title);
 		document.title = decodeURI(title) + " — 玄学百科，万物皆可玄";
 	} else {
